@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const { randomBytes } = require('crypto');
 const cors = require('cors');
 
-const app = express();
+const app = express(); //test comment
 app.use(bodyParser.json());
 app.use(cors());
 
